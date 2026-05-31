@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '8028433138:AAHG7mFHzWiR0QKaMIbRz6v94Ip_d-6zS3E')
+TOKEN = os.getenv('8028433138:AAHG7mFHzWiR0QKaMIbRz6v94Ip_d-6zS3E', '8028433138:AAHG7mFHzWiR0QKaMIbRz6v94Ip_d-6zS3E')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("مرحباً! 👋 أنا بوتك الذكي 🤖")

@@ -11,7 +11,7 @@ TIKTOK_REGEX = re.compile(
 )
 
 
-def download_tiktok(url: str) -> dict | None:
+def download_tiktok(url: str):
     try:
         res = requests.get(
             "https://www.tikwm.com/api/",
